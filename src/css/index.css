@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+    background-color: #37474f;
+    color: #a7ffeb;
+}
+
+#root {
+    background-color: #37474f;
+    /* background-color: black; */
+    display: flex;
+    height: 100vh;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+
+/* flex row nowarp */
+.frnw {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+/* flex column nowarp */
+.fcnw {
+    display: flex;
+    flex-flow: column nowrap;
+}
